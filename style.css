@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* NAV Starts */  
+.zone {
+  background-color: white;
+  border-bottom: 1px solid black;
+  list-style: none;
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.3s linear;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ultra', serif;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+    
+}
+
+nav li:hover {
+    background: chocolate;
+    color: #D9FF7D;
+    
+}
+
+.logo{
+    margin-right: auto;}
+
+/* ==== HEADER #HOME ==== */
+
+
+
+#home {
+        background:#D9FF7D;
+        width: 100%;
+        height: auto;
+        min-height:100%;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left
+ }
+
+#home h1{
+    padding: 50px;
+    padding-top: 110px;
+    text-align:left;
+    font-family: 'BioRhyme', serif;
+    font-size: 50px;
+    color: black;
+}
+
+.layer2 {
+    position:absolute;
+    left: 900px;
+    top:400px;;
+}
+.layer3 {
+    position:absolute;
+    left: 900px;
+    top:150px;;
+}
+#anim {
+    animation: rotateThis 5s infinite linear;
+}
+
+@keyframes rotateThis {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+    
+}
+section.parent
+{
+    width: 100%;
+    min-height:100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.parent article {
+    width: 100%;
+    font-family:'BioRhyme', serif;
+    font-size: 22px;
+    color: #333;
+    padding: 40px;
+}
+section.blue{
+    background-color: royalblue;
+}
+
+.about {width: 100%;
+    background-color:#D9FF7D;
+        background:#D9FF7D;
+        font-family:'BioRhyme', serif;
+        width: 100%;
+        height: auto;
+        min-height:100%;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left;
+    padding: 50px;
+    
+    
+}
+
+ .beige {background: #EDE6C8;
+            font-family:'BioRhyme', serif;
+            text-align: center;
+            font-size: 15px;
+    
+    }
+.fcf-body {
+    margin-top: 100px;
+    font-family: font-family:'BioRhyme', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    background:#D9FF7D;
+    padding: 30px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    outline: none;
+}
+
+.fcf-form-control:focus {
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+   font-family:'BioRhyme', serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+.fcf-credit a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+    .fcf-btn {
+        transition: none;
+    }
+
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    font-family:'BioRhyme', serif;
+    color: #fff;
+    background-color: chocolate;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #EDE6C8;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #EDE6C8;
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+    display: block;
+    width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+    margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+
+@media only screen and (min-width:600px) {
+    h1{
+        font-size: 36px;
+    }
+    .parent article {
+        width: 50%;
+    }
+    section.blue{
+    background-color: #EDE6C8;
+}
+    #home h1{font-size: 70px;}
+    
+    .about {width: 100%;
+    background-color:#D9FF7D;
+        background:#D9FF7D;
+        font-family:'BioRhyme', serif;
+        width: 100%;
+        height: auto;
+        min-height:100%;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left;
+            padding: 50px;
+    
+    
+}
+     .beige {background: #EDE6C8;
+            font-family:'BioRhyme', serif;
+            text-align: center;
+            font-size: 15px;
+    
+    }
+
+    @media only screen and (min-width:1024px) {
+    h1{
+        font-size: 42px;
+    }
+    .parent article {
+        width: 25%;
+    }
+    
+        section.blue{
+    background-color: chocolate;
+}
+    #home h1{font-size: 110px;}
+
+
+.smheader h1{
+    font-family:'BioRhyme', serif;
+    font-size: 32px;
+    color: #333;
+}
+.about {width: 100%;
+    background-color:#D9FF7D;
+        background:#D9FF7D;
+        font-family:'BioRhyme', serif;
+        width: 100%;
+        height: auto;
+        min-height:100%;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left;
+        padding: 50px;
+    
+    
+}
+         .beige {background: #EDE6C8;
+            font-family:'BioRhyme', serif;
+            text-align: center;
+            font-size: 15px;
+    
+    }
+
